@@ -1,0 +1,41 @@
+.banner{
+    background-color: var(--bg-200);
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 10rem 4rem 4rem;
+    align-items: center;
+}
+
+.banner h2{
+    font-size: 2.5rem;
+    color: var(--primary-200);
+}
+
+.banner p{
+    margin-right: 5rem;
+    text-align: justify;
+    font-style: italic;
+    font-size: 1.3rem;
+    color: var(--text-200);
+}
+
+.banner img{
+    border-radius: 100%;
+    border: 3px solid var(--primary-100);
+}
+
+.lista-banner{
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+    color: var(--primary-200);
+}
+
+.lista-banner li{
+    font-size: 1.1rem;
+    margin-right: 1.5rem;
+}
+
+.lista-banner li:hover{
+    font-weight: bold;
+}
