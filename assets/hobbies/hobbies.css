@@ -1,0 +1,37 @@
+.hobbies{
+    background-color: var(--bg-100);
+    padding: 4rem 4rem 0 4rem ;
+}
+
+.hobbies h2{
+    font-size: 2.5rem;
+    color: var(--primary-200);
+    text-transform: uppercase;
+}
+
+.hobbies-contenedor{
+    margin: 2rem 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.hobbies-tarjeta{
+    margin: 0 0 3rem 0;
+    width: 21%;
+    height: 20rem;
+    background-color: var(--bg-200);
+    border-radius: 5%;
+    box-shadow: rgba(0, 0, 0, 0.149) 1.95px 1.95px 2.6px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 2rem;
+}
+
+.hobbies-tarjeta h3{
+    font-size: 1.3rem;
+    color: var(--text-200);
+    margin-top: 1.5rem;
+}
