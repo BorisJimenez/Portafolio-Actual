@@ -1,0 +1,55 @@
+.proyectos{
+    background-color: var(--bg-100);
+    padding: 4rem 4rem 0 4rem ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.proyectos h2{
+    font-size: 2.5rem;
+    color: var(--primary-200);
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.proyectos-tarjeta{
+    display: flex;
+    justify-content: space-between;
+    height: 20rem;
+    width: 80%;
+    background-color: var(--bg-200);
+    margin-bottom: 2rem;
+    padding: 3%;
+    border-radius: 1%;
+    box-shadow: rgba(0, 0, 0, 0.149) 4px 4px 4px;
+}
+
+.tarjeta-izq{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tarjeta-izq h3{
+    font-size: 1.5rem;
+    color: var(--primary-200);
+}
+
+.tarjeta-izq p{
+    font-size: 1.3rem;
+    color: var(--text-200);
+}
+
+.proyectos-button{
+    width: 13rem;
+    height: 3rem;
+    font-size: 1.3rem;
+    color: var(--text-100);
+    border-radius: 10%;
+    margin-right: 2rem;
+    background-color: var(--primary-200);
+    border: none;
+
+
+}
