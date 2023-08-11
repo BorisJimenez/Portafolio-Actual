@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="assets/hobbies/hobbies.css">
     <link rel="stylesheet" href="assets/formacion/formacion.css">
     <link rel="stylesheet" href="assets/proyectos/proyectos.css">
+    <link rel="stylesheet" href="assets/contacto/contacto.css">
+    <link rel="stylesheet" href="assets/rodapie/rodapie.css">
 </head>
 <body>
     <header class="encabezado">
@@ -212,13 +214,28 @@
                 <img src="" alt="TIC-TAC-TOE">
             </div>
         </section>
-        <section>
+        <section class="contacto">
             <h2>contacto</h2>
+            <div class="contacto-contenedor">
+                <form class="contacto-form">
+                    <label for="nombre">Nombre Completo</label>
+                    <input type="text" name="nombre" class="input" id="nombre">
+                    <label for="email">e-mail</label>
+                    <input type="email" class="input" name="email" id="email">
+                    <label for="telefono">Telefono de Contacto</label>
+                    <input type="tel" name="telefono" class="input" id="telefono">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Escribe tu mensaje"></textarea>
+                    <input type="submit" class="enviar"></input>
+                </form>
+                <img src="contacto.jpeg" alt="Imagen Contacto">
+            </div>
         </section>
 
     </main>
     <footer>
-
+        <div class="rodapie">
+            <h3>Desarrollado por Boris Jiménez <br> 2023</h3>
+        </div>
     </footer>
 </body>
 </html>

@@ -1,0 +1,16 @@
+.rodapie{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 10rem;
+    justify-content: space-around;
+    background-color: var(--bg-200);
+    border-top: 2px solid var(--primary-200);
+}
+
+.rodapie h3{
+    text-align: center;
+    color: var(--text-200);
+    font-size: 1.5rem;
+    background-color: var(--bg-200);
+}

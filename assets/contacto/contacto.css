@@ -1,0 +1,68 @@
+.contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--bg-200);
+    padding: 4rem 4rem 0 4rem ;
+}
+
+.contacto h2{
+    font-size: 2.5rem;
+    color: var(--primary-200);
+    text-transform: uppercase;
+}
+
+.contacto-contenedor{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    justify-content: space-around;
+}
+
+.contacto-form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    width: 40%;
+}
+
+.contacto-form label{
+    color: var(--text-200);
+    font-size: 1.2rem;
+    background-color: var(--bg-100);
+    padding: 1rem;
+}
+
+.input{
+    margin-bottom: 1.5rem;
+    background-color: var(--bg-100);
+    border: none;
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+
+.contacto-form textarea{
+    margin-bottom: 1.5rem;
+    background-color: var(--bg-100);
+    border: none;
+    font-size: 1.3rem;
+    padding: 1rem;
+}
+
+.enviar{
+    width: 18rem;
+    height: 3rem;
+    font-size: 1.3rem;
+    color: var(--text-100);
+    border-radius: 4%;
+    margin-right: 2rem;
+    background-color: var(--primary-200);
+    border: none;
+    align-self: center;
+    margin-bottom: 1.5rem;
+}
+
+.contacto-contenedor img{
+    width: 40%;
+    border-radius: 10%;
+}
