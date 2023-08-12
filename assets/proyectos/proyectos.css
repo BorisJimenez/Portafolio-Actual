@@ -50,6 +50,8 @@
     margin-right: 2rem;
     background-color: var(--primary-200);
     border: none;
+}
 
-
+.proyectos-tarjeta img{
+    width: 50%;
 }

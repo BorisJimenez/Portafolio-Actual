@@ -27,15 +27,17 @@
 .lista-banner{
     display: flex;
     list-style: none;
-    text-transform: uppercase;
+    text-transform: uppercase; 
+}
+
+.lista-banner li a{
+    font-size: 1.1rem;
+    margin-right: 1.5rem;
+    font-style: none;
+    text-decoration: none;
     color: var(--primary-200);
 }
 
-.lista-banner li{
-    font-size: 1.1rem;
-    margin-right: 1.5rem;
-}
-
-.lista-banner li:hover{
+.lista-banner li a:hover{
     font-weight: bold;
 }
