@@ -39,3 +39,18 @@
 .formacion-tarjeta p{
     color: var(--text-200);
 }
+
+.one{
+    width: 80%;
+    align-self: center;
+}
+
+.upea{
+    width: 40%;
+    align-self: center;
+}
+
+.nur .unicen{
+    width: 100%;
+    align-self: center;
+}

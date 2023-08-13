@@ -35,3 +35,7 @@
     color: var(--text-200);
     margin-top: 1.5rem;
 }
+
+.hobbies-tarjeta img{
+    width: 5rem;
+}
