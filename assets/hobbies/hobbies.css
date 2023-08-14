@@ -38,4 +38,10 @@
 
 .hobbies-tarjeta img{
     width: 5rem;
+    transition: 500ms;
+}
+
+.hobbies-tarjeta img:hover{
+    width: 10rem;
+    transition: 500ms;
 }

@@ -163,8 +163,8 @@
                     <h3>Pomodoro</h3>
                     <p>Tecnologias Utilizadas: HTML - CSS - JavaScript</p>
                     <div>
-                        <button class="proyectos-button">Demo</button>
-                        <button class="proyectos-button">Código</button>
+                        <a href="https://borisjimenez.github.io/Pomodoro/" target="_blank"><button class="proyectos-button">Demo</button></a>
+                        <a href="https://github.com/BorisJimenez/Pomodoro.git" target="_blank"><button class="proyectos-button">Código</button></a>
                     </div>
                 </div>
                 <img src="imagenes_proyectos/pomodoro.png" alt="Pomodoro">
@@ -174,8 +174,8 @@
                     <h3>Mascara</h3>
                     <p>Tecnologias Utilizadas: HTML - CSS - JavaScript</p>
                     <div>
-                        <button class="proyectos-button">Demo</button>
-                        <button class="proyectos-button">Código</button>
+                        <a href="https://borisjimenez.github.io/Mascara/" target="_blank"><button class="proyectos-button">Demo</button></a>
+                        <a href="https://github.com/BorisJimenez/Mascara.git" target="_blank"><button class="proyectos-button">Código</button></a>
                     </div>
                 </div>
                 <img src="imagenes_proyectos/mascara.png" alt="Mascara">
@@ -185,8 +185,8 @@
                     <h3>Contador de Días</h3>
                     <p>Tecnologias Utilizadas: HTML - CSS - JavaScript</p>
                     <div>
-                        <button class="proyectos-button">Demo</button>
-                        <button class="proyectos-button">Código</button>
+                        <a href="https://borisjimenez.github.io/Contador-de-D-as/" target="_blank"><button class="proyectos-button">Demo</button></a>
+                        <a href="https://github.com/BorisJimenez/Contador-de-D-as.git" target="_blank"><button class="proyectos-button">Código</button></a>
                     </div>
                 </div>
                 <img src="imagenes_proyectos/contador-de-dias.png" alt="Contador de Días">
@@ -196,8 +196,8 @@
                     <h3>Tecaldo Virtual</h3>
                     <p>Tecnologias Utilizadas: HTML - CSS - JavaScript</p>
                     <div>
-                        <button class="proyectos-button">Demo</button>
-                        <button class="proyectos-button">Código</button>
+                        <a href="https://borisjimenez.github.io/Teclado-Virtual/" target="_blank"><button class="proyectos-button">Demo</button></a>
+                        <a href="https://github.com/BorisJimenez/Teclado-Virtual.git" target="_blank"><button class="proyectos-button">Código</button></a>
                     </div>
                 </div>
                 <img src="imagenes_proyectos/teclado.png" alt="Tecaldo Virtual">
@@ -207,8 +207,8 @@
                     <h3>TIC-TAC-TOE</h3>
                     <p>Tecnologias Utilizadas: HTML - CSS - JavaScript</p>
                     <div>
-                        <button class="proyectos-button">Demo</button>
-                        <button class="proyectos-button">Código</button>
+                        <a href="https://borisjimenez.github.io/TIC-TAC-TOE/" target="_blank"><button class="proyectos-button">Demo</button></a>
+                        <a href="https://github.com/BorisJimenez/TIC-TAC-TOE.git" target="_blank"><button class="proyectos-button">Código</button></a>
                     </div>
                 </div>
                 <img src="imagenes_proyectos/tic-tac-toe.png" alt="TIC-TAC-TOE">
@@ -217,25 +217,25 @@
         <section class="contacto">
             <h2 id="contacto">contacto</h2>
             <div class="contacto-contenedor">
-                <form class="contacto-form">
+                <form class="contacto-form" id="miFormulario" onsubmit="return validarFormulario()">
                     <label for="nombre">Nombre Completo</label>
-                    <input type="text" name="nombre" class="input" id="nombre">
+                    <input type="text" name="nombre" class="input" id="nombre" required>
                     <label for="email">e-mail</label>
-                    <input type="email" class="input" name="email" id="email">
+                    <input type="email" class="input" name="email" id="email" required>
                     <label for="telefono">Telefono de Contacto</label>
-                    <input type="tel" name="telefono" class="input" id="telefono">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Escribe tu mensaje"></textarea>
-                    <input type="submit" class="enviar"></input>
+                    <input type="tel" name="telefono" class="input" id="telefono" required>
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Escribe tu mensaje" required></textarea>
+                    <input type="submit" value="enviar" class="enviar">
                 </form>
                 <img src="contacto.jpeg" alt="Imagen Contacto">
             </div>
         </section>
-
     </main>
     <footer>
         <div class="rodapie">
             <h3>Desarrollado por Boris Jiménez <br> 2023</h3>
         </div>
     </footer>
+    <script src="assets/main.js"></script>
 </body>
 </html>

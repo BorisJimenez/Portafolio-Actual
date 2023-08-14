@@ -39,4 +39,10 @@
 
 .skills-tarjeta img{
     width: 5rem;
+    transition: 500ms;
+}
+
+.skills-tarjeta img:hover{
+    width: 10rem;
+    transition: 500ms;
 }
